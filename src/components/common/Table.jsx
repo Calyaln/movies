@@ -3,6 +3,7 @@ import TableHeader from "./TableHeader";
 import TableBody from "./TableBody";
 
 const Table = ({ columns, sortColumn, onSort, data }) => {
+  console.log(columns);
   return (
     <table className="table">
       <TableHeader columns={columns} sortColumn={sortColumn} onSort={onSort} />
